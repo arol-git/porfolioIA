@@ -1,0 +1,45 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(font1.png) ;
+    
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-photo {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: 4px solid white;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+     float: right;
+    margin-right: 2rem;
+    
+}
+
+.head-content {
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    padding-top: 40px;
+}
+.vide{
+    height: 50px;
+    padding-top: 16em;
+}
+.head-content h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
